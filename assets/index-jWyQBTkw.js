@@ -29218,7 +29218,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
           h.jsx("li", {
             onClick: () =>
               t(
-                "https://app.uniswap.org/explore/tokens/ethereum/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf"
+                "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf"
               ),
             children: h.jsx(re, {
               className:
