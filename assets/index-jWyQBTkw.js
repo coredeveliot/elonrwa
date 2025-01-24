@@ -29204,18 +29204,9 @@ const H0 = ({ closeMoadal: t, img: e }) => {
           "flex [&_li]:w-fit grid-cols-3 w-full justify-center items-center gap-2 flex-wrap h-full  ",
         children: [
           h.jsx("li", {
-            children: h.jsx(re, {
-              to: "https://linktr.ee/ElonRWA",
-              target: "_blank",
-              className:
-                "border border-white inline-block p-1 bg-black rounded-full ",
-              children: h.jsx(g2, { className: "size-[30px] text-white" }),
-            }),
-          }),
-          h.jsx("li", {
             onClick: () =>
               t(
-                "https://dexscreener.com/base/0xd56f086e7b796b313d49f2bc926fac4bdd2a2b0b"
+                "https://dexscreener.com/ethereum/0x00000000000000000000000000000"
               ),
             children: h.jsx(re, {
               to: "#",
@@ -29227,7 +29218,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
           h.jsx("li", {
             onClick: () =>
               t(
-                "https://app.uniswap.org/explore/tokens/base/0xaa6cccdce193698d33deb9ffd4be74eaa74c4898"
+                "https://app.uniswap.org/explore/tokens/ethereum/0x000000000000000000000000000000000000"
               ),
             children: h.jsx(re, {
               className:
@@ -29236,35 +29227,9 @@ const H0 = ({ closeMoadal: t, img: e }) => {
             }),
           }),
           h.jsx("li", {
-            children: h.jsx(re, {
-              to: "https://coinmarketcap.com/dexscan/base/0xd56f086e7b796b313d49f2bc926fac4bdd2a2b0b/",
-              target: "_blank",
-              className:
-                "border border-white inline-block bg-black rounded-full p-1",
-              children: h.jsx("img", {
-                src: Hb,
-                alt: "",
-                className: "size-[30px]",
-              }),
-            }),
-          }),
-          h.jsx("li", {
-            children: h.jsx(re, {
-              to: "https://www.geckoterminal.com/base/pools/0xd56f086e7b796b313d49f2bc926fac4bdd2a2b0b?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults",
-              target: "_blank",
-              className:
-                "border border-white bg-black inline-block  rounded-full p-1",
-              children: h.jsx("img", {
-                src: Gb,
-                alt: "",
-                className: "size-[30px]",
-              }),
-            }),
-          }),
-          h.jsx("li", {
             onClick: () =>
               t(
-                "https://www.dextools.io/app/en/base/pair-explorer/0xd56f086e7b796b313d49f2bc926fac4bdd2a2b0b?t=1714577756550"
+                "https://www.dextools.io/app/en/base/pair-explorer/0x000000000000000000000000000?t=1714577756550"
               ),
             children: h.jsx(re, {
               to: "#",
@@ -29495,24 +29460,9 @@ const H0 = ({ closeMoadal: t, img: e }) => {
   },
   oL = [
     { to: "/", lebel: "Home" },
-    { to: "story", lebel: "Our Story" },
-    { to: "elondao", lebel: "Elondao" },
-    { to: "tokenomics", lebel: "Tokenomics" },
     {
       to: "https://etherscan.io/token/0x00000000000000000000000000000000000000",
       lebel: "Contract",
-      target: "_blank",
-    },
-    {
-      to: "live",
-      lebel: h.jsxs("div", {
-        className:
-          "inline-flex items-center bg-red-600 text-white text-m px-3 py-1 rounded-full uppercase cursor-pointer",
-        children: [
-          h.jsx("div", { className: "w-3 h-3 bg-white rounded-full mr-2" }),
-          h.jsx("span", { children: "Live" }),
-        ],
-      }),
       target: "_blank",
     },
   ],
@@ -29555,18 +29505,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                 children: [
                   h.jsx("li", {
                     children: h.jsx(re, {
-                      to: "https://linktr.ee/ElonRWA",
-                      target: "_blank",
-                      className:
-                        "border bg-[#373936] border-white inline-block p-1 rounded-full ",
-                      children: h.jsx(g2, {
-                        className: "size-[30px] text-white",
-                      }),
-                    }),
-                  }),
-                  h.jsx("li", {
-                    children: h.jsx(re, {
-                      to: "https://dexscreener.com/base/0xd56f086e7b796b313d49f2bc926fac4bdd2a2b0b",
+                      to: "https://dexscreener.com/ethereum/0x00000000000000000000000000000000",
                       target: "_blank",
                       className:
                         "border bg-[#373936] border-white inline-block p-1 rounded-full ",
@@ -29577,7 +29516,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                   }),
                   h.jsx("li", {
                     children: h.jsx(re, {
-                      to: "https://app.uniswap.org/explore/tokens/base/0xaa6cccdce193698d33deb9ffd4be74eaa74c4898",
+                      to: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
                       target: "_blank",
                       className:
                         "border bg-[#373936] border-white inline-block p-1 rounded-full ",
@@ -29588,18 +29527,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                   }),
                   h.jsx("li", {
                     children: h.jsx(re, {
-                      to: "https://discord.com/invite/jaHdvwzX4P",
-                      target: "_blank",
-                      className:
-                        "border bg-[#373936] border-white inline-block p-1 rounded-full ",
-                      children: h.jsx(y2, {
-                        className: "size-[30px] text-white",
-                      }),
-                    }),
-                  }),
-                  h.jsx("li", {
-                    children: h.jsx(re, {
-                      to: "https://twitter.com/ElonRWA",
+                      to: "https://twitter.com/elonrwa_erc20",
                       target: "_blank",
                       className:
                         "border bg-[#373936] border-white inline-block rounded-full p-1",
@@ -29608,56 +29536,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                       }),
                     }),
                   }),
-                  h.jsx("li", {
-                    children: h.jsx(re, {
-                      to: "https://coinmarketcap.com/dexscan/base/0xd56f086e7b796b313d49f2bc926fac4bdd2a2b0b/",
-                      target: "_blank",
-                      className:
-                        "border bg-[#373936] border-white inline-block  rounded-full p-1",
-                      children: h.jsx("img", {
-                        src: Hb,
-                        alt: "",
-                        className: "size-[30px]",
-                      }),
-                    }),
-                  }),
-                  h.jsx("li", {
-                    children: h.jsx(re, {
-                      to: "https://www.geckoterminal.com/base/pools/0xd56f086e7b796b313d49f2bc926fac4bdd2a2b0b?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults",
-                      target: "_blank",
-                      className:
-                        "border bg-[#373936] border-white inline-block  rounded-full p-1",
-                      children: h.jsx("img", {
-                        src: Gb,
-                        alt: "",
-                        className: "size-[30px]",
-                      }),
-                    }),
-                  }),
-                  h.jsx("li", {
-                    children: h.jsx(re, {
-                      to: "#",
-                      className:
-                        "border border-white inline-block bg-[#373936]  rounded-full p-1",
-                      children: h.jsx("img", {
-                        src: $b,
-                        alt: "",
-                        className: "size-[30px]",
-                      }),
-                    }),
-                  }),
                 ],
-              }),
-              h.jsx("div", {
-                className: "  text-3xl max-md:text-xl ",
-                children: h.jsx("div", {
-                  className: "flex -space-x-5  items-center",
-                  children: h.jsx("div", {
-                    className:
-                      "bg-secondary w-fit h-fit rounded-full  text-slate-800 font font-bold p-2 px-10 ",
-                    children: h.jsx("span", { children: "BUY $ELONRWA" }),
-                  }),
-                }),
               }),
             ],
           }),
@@ -36667,21 +36546,6 @@ const eD = () => {
               className:
                 "relative rounded-3xl w-[90%] md:w-[80%] h-auto mx-auto border border-[#ffffff98]",
               children: [
-                h.jsx("span", {
-                  className:
-                    "absolute top-2 left-2 bg-red-600 text-white px-3 py-1 rounded-lg text-sm font-bold",
-                  children: "LIVE",
-                }),
-                h.jsx("iframe", {
-                  className: "w-full rounded-3xl",
-                  style: { height: "340px" },
-                  src: "https://www.youtube.com/embed/EmozzACuURc?autoplay=1&mute=1",
-                  title: "YouTube video player",
-                  frameBorder: "0",
-                  allow:
-                    "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-                  allowFullScreen: !0,
-                }),
               ],
             }),
           ],
