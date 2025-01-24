@@ -29375,7 +29375,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                     }),
                     h.jsx("li", {
                       children: h.jsx(re, {
-                        to: "https://dexscreener.com/",
+                        to: "https://dexscreener.com/ethereum/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf",
                         target: "_blank",
                         children: "Dexscreener",
                       }),
