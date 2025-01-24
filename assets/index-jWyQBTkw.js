@@ -22845,11 +22845,11 @@ const Ru = C.createContext(),
                         className:
                           "flex md:-space-x-5 -space-x-3  items-center",
                         children: h.jsx("div", {
-                          href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
+                          href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf",
                           className:
                             "bg-secondary text-black font-bold w-fit h-fit rounded-full   font  max-md:p-2 max-md:px-6 p-3 px-5 max-md:text-sm",
                           children: h.jsx("a", { children: "BUY $ELONRWA", 
-                            href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
+                            href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf",
                           }),
                         }),
                       }),
@@ -22916,7 +22916,7 @@ const Ru = C.createContext(),
                               className: "text-2xl max-md:text-2xl",
                               style: { color: n },
                               children: [
-                                e == null ? void 0 : "CA: 0x0000000000000000000000000000000000"
+                                e == null ? void 0 : "CA: 0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf"
                               ],
                             }),
                           ],
@@ -29206,7 +29206,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
           h.jsx("li", {
             onClick: () =>
               t(
-                "https://dexscreener.com/ethereum/0x00000000000000000000000000000"
+                "https://dexscreener.com/ethereum/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf"
               ),
             children: h.jsx(re, {
               to: "#",
@@ -29218,7 +29218,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
           h.jsx("li", {
             onClick: () =>
               t(
-                "https://app.uniswap.org/explore/tokens/ethereum/0x000000000000000000000000000000000000"
+                "https://app.uniswap.org/explore/tokens/ethereum/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf"
               ),
             children: h.jsx(re, {
               className:
@@ -29229,7 +29229,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
           h.jsx("li", {
             onClick: () =>
               t(
-                "https://www.dextools.io/app/en/base/pair-explorer/0x000000000000000000000000000?t=1714577756550"
+                "https://www.dextools.io/app/en/base/pair-explorer/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf?t=1714577756550"
               ),
             children: h.jsx(re, {
               to: "#",
@@ -29382,7 +29382,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                     }),
                     h.jsx("li", {
                       children: h.jsx(re, {
-                        to: "https://etherscan.io/token/0x00000000000000000000000000000000000000",
+                        to: "https://etherscan.io/token/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf",
                         target: "_blank",
                         children: "Contract",
                       }),
@@ -29461,7 +29461,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
   oL = [
     { to: "/", lebel: "Home" },
     {
-      to: "https://etherscan.io/token/0x00000000000000000000000000000000000000",
+      to: "https://etherscan.io/token/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf",
       lebel: "Contract",
       target: "_blank",
     },
@@ -29505,7 +29505,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                 children: [
                   h.jsx("li", {
                     children: h.jsx(re, {
-                      to: "https://dexscreener.com/ethereum/0x00000000000000000000000000000000",
+                      to: "https://dexscreener.com/ethereum/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf",
                       target: "_blank",
                       className:
                         "border bg-[#373936] border-white inline-block p-1 rounded-full ",
@@ -29516,7 +29516,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                   }),
                   h.jsx("li", {
                     children: h.jsx(re, {
-                      to: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
+                      to: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf",
                       target: "_blank",
                       className:
                         "border bg-[#373936] border-white inline-block p-1 rounded-full ",
