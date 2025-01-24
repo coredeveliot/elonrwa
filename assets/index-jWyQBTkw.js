@@ -29229,7 +29229,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
           h.jsx("li", {
             onClick: () =>
               t(
-                "https://www.dextools.io/app/en/base/pair-explorer/0x6311fb29c916860885A2fe5ac5Fa0593fd0734Bf?t=1714577756550"
+                "https://www.dextools.io/app/en/ether/pair-explorer/0xfb7dde14be1e38354a25b930849caf324cd18707?t=1737703393570"
               ),
             children: h.jsx(re, {
               to: "#",
@@ -29368,7 +29368,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                     ),
                     h.jsx("li", {
                       children: h.jsx(re, {
-                        to: "https://www.dextools.io/app/en/ether/pool-explorer/0x11111111111111111111111111111111111111",
+                        to: "https://www.dextools.io/app/en/ether/pair-explorer/0xfb7dde14be1e38354a25b930849caf324cd18707?t=1737703393570",
                         target: "_blank",
                         children: "Dextools",
                       }),
