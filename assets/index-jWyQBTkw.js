@@ -29433,7 +29433,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                       children: [
                         h.jsx("li", {
                           children: h.jsx(re, {
-                            to: "https://t.me/",
+                            to: "https://t.me/elonrwa_erc20",
                             target: "_blank",
                             className:
                               "border border-secondary inline-block p-1 rounded-full ",
@@ -29445,7 +29445,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                         }),
                         h.jsx("li", {
                           children: h.jsx(re, {
-                            to: "https://twitter.com/",
+                            to: "https://twitter.com/elonrwa_erc20",
                             target: "_blank",
                             className:
                               "border border-secondary inline-block rounded-full p-1",
@@ -29710,7 +29710,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                                 children: [
                                   " ",
                                   h.jsx(re, {
-                                    to: "https://x.com/ElonRWA",
+                                    to: "https://x.com/elonrwa_erc20",
                                     target: "_blank",
                                     children: "Twitter",
                                   }),
@@ -29720,7 +29720,7 @@ const H0 = ({ closeMoadal: t, img: e }) => {
                                 children: [
                                   " ",
                                   h.jsx(re, {
-                                    to: "https://t.me/ElonRWA",
+                                    to: "https://t.me/elonrwa_erc20",
                                     target: "_blank",
                                     children: "Telegram",
                                   }),
