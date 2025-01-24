@@ -20755,14 +20755,14 @@ const O5 = ({ loading: t, images: e }) => {
             h.jsx("div", {
               className:
                 "flex z-[9999] historyText fixed md:bottom-5 bottom-[5%]  left-1/2 -translate-x-1/2 -space-x-5  items-center",
-              children: h.jsx(re, {
-                to: "story",
-                children: h.jsx("div", {
-                  className:
-                    "bg-secondary w-fit h-fit rounded-full md:text-xl text-slate-800 font font-bold  p-1 max-md:text-sm px-5 ",
-                  children: h.jsx("span", { children: "OUR STORY" }),
-                }),
-              }),
+              // children: h.jsx(re, {
+              //   to: "story",
+              //   children: h.jsx("div", {
+              //     className:
+              //       "bg-secondary w-fit h-fit rounded-full md:text-xl text-slate-800 font font-bold  p-1 max-md:text-sm px-5 ",
+              //     children: h.jsx("span", { children: "OUR STORY" }),
+              //   }),
+              // }),
             }),
           ],
         }),
@@ -21953,16 +21953,16 @@ const Q5 = ({ images: t, loading: e }) => {
           }),
           h.jsx("div", {
             className: "absolute z-50 left-1/2 -translate-x-1/2 bottom-3",
-            children: h.jsx(re, {
-              onClick: () => {
-                (f.current = 0), cancelAnimationFrame(w.current), r("/elondao");
-              },
-              children: h.jsx("div", {
-                className:
-                  "bg-secondary w-fit h-fit rounded-full md:text-xl text-slate-800 font-bold p-1 max-md:text-sm px-5",
-                children: h.jsx("span", { children: "ELONDAO" }),
-              }),
-            }),
+            // children: h.jsx(re, {
+            //   onClick: () => {
+            //     (f.current = 0), cancelAnimationFrame(w.current), r("/elondao");
+            //   },
+            //   children: h.jsx("div", {
+            //     className:
+            //       "bg-secondary w-fit h-fit rounded-full md:text-xl text-slate-800 font-bold p-1 max-md:text-sm px-5",
+            //     children: h.jsx("span", { children: "ELONDAO" }),
+            //   }),
+            // }),
           }),
           h.jsxs("div", {
             id: "skipButton",
@@ -22871,7 +22871,7 @@ const Ru = C.createContext(),
                               children: [
                                 h.jsx("h3", {
                                   className: "text-xl max-md:text-sm",
-                                  children: "Market Cap",
+                                  children: "LP",
                                 }),
                                 h.jsx("div", {
                                   className:
@@ -22880,7 +22880,7 @@ const Ru = C.createContext(),
                                     className:
                                       "text-4xl max-md:text-2xl font-mono",
                                     children: [
-                                      "--",
+                                      "Burnt",
                                     ],
                                   }),
                                 }),
@@ -22892,7 +22892,7 @@ const Ru = C.createContext(),
                               children: [
                                 h.jsx("h3", {
                                   className: "text-xl max-md:text-sm",
-                                  children: "24h % Change",
+                                  children: "Ownership",
                                 }),
                                 h.jsxs("h3", {
                                   className: "text-4xl max-md:text-2xl",
@@ -22900,7 +22900,7 @@ const Ru = C.createContext(),
                                     " ",
                                     e == null
                                       ? void 0
-                                      : "--"
+                                      : "Renounced"
                                   ],
                                 }),
                               ],
@@ -22911,18 +22911,12 @@ const Ru = C.createContext(),
                           className:
                             "bg-[#333432] flex  justify-between flex-1 hero1 rounded-lg p-5  text-sm relative",
                           children: [
-                            h.jsx("h3", {
-                              className: "text-xl",
-                              children: "Price",
-                            }),
                             h.jsxs("h3", {
                               id: "currentPrice",
-                              className: "text-4xl max-md:text-2xl",
+                              className: "text-2xl max-md:text-2xl",
                               style: { color: n },
                               children: [
-                                " ",
-                                "$",
-                                e == null ? void 0 : "--"
+                                e == null ? void 0 : "CA: 0x0000000000000000000000000000000000"
                               ],
                             }),
                           ],
